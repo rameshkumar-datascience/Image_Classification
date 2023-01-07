@@ -11,6 +11,7 @@ class Test_read_yaml:
     ]
 
     def test_read_yaml_empty(self):
+
         with pytest.raises(ValueError):
             read_yaml(Path(self.yaml_files[0]))
 

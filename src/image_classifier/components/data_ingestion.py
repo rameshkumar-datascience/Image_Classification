@@ -7,6 +7,7 @@ from tqdm import tqdm
 from pathlib import Path
 from image_classifier import logger
 
+
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
@@ -29,8 +30,7 @@ class DataIngestion:
     def _preprocess(self, zf: ZipFile, f: str, working_dir: str):
         target_filepath = os.path.join(working_dir, f)
         if not os.path.exists(target_filepath):
-            zf.extract(f, working_dir)
-        
+            zf.extract(f, working_dir)        
         if os.path.getsize(target_filepath) == 0:
             logger.info(f"removing file:{target_filepath} of size: {get_size(Path(target_filepath))}")
             os.remove(target_filepath)

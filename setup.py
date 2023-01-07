@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Image_Classification"
+REPO_NAME = "Image_Classifier"
 AUTHOR_USER_NAME = "rameshkumar-datascience"
 SRC_REPO = "Image_Classification"
 AUTHOR_EMAIL = "rameshmangali947@gmail.com"

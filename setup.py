@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Image_Classifier"
+REPO_NAME = "Image_Classification"
 AUTHOR_USER_NAME = "rameshkumar-datascience"
-SRC_REPO = "Image_Classification"
+SRC_REPO = "image_classifier"
 AUTHOR_EMAIL = "rameshmangali947@gmail.com"
 
 setuptools.setup(

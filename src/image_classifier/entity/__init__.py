@@ -1,0 +1,1 @@
+from image_classifier.entity.config_entity import DataIngestionConfig
